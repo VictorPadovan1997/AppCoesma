@@ -1,0 +1,68 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Quem Somos</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="presentPopover($event)">
+        <ion-icon name="more"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div class="about-header">
+    <img src="assets/img/coesma.png" alt="ionic logo">
+  </div>
+  <div padding class="about-info">
+    <h4>COESMA | TRANSCONNECT | 3ES | CONSISTRANS | BIBIFONFON </h4>
+
+    <ion-list no-lines>
+      
+
+      <ion-item>
+        <ion-icon name="pin" item-start></ion-icon>
+        <ion-label>Localização</ion-label>
+        <ion-select>
+          <ion-option value="madison" selected>Marilia-SP</ion-option>
+         
+        </ion-select>
+      </ion-item>
+    </ion-list>
+
+      <div align="center"> <h2>EMPRESA </h2> </div> 
+    <p>
+      A COESMA foi projetada e criada por Eduardo Marques de Almeida Júnior
+       e atua na área de trânsito a mais de 15 anos, prestando consultorias 
+       em diversos municípios que obtiveram resultados expressivos em segurança no Trânsito.
+    </p>
+
+
+    <div align="center"> <h2>MISSÃO </h2> </div> 
+    
+    <p>
+      Colaborar para a mobilidade segura apoiando as empresas de direito Público
+       e Privado com serviços e produtos para Segurança no Trânsito.
+    </p>
+
+
+
+
+    <div align="center"> <h2>OBJETIVO </h2> </div> 
+    <p>
+      Ser líder de mercado na área de Segurança no Trânsito com serviços e produtos que atendam ao bem comum. 
+      Aplicar conceitos e valores por meio da Informática e Educação, considerando os interesses coletivos acima dos individuais no trânsito.
+    </p>
+
+
+  
+    <div align="center"> <h2>VALORES </h2> </div> 
+    <p>
+      Superação do estado de valorizar as "coisas" e usar as pessoas, para o conceito de valorizar as pessoas e utilizar as "coisas".
+    </p>
+
+
+  </div>
+</ion-content>
